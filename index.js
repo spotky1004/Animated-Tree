@@ -136,7 +136,7 @@ $(function (){
       'treeMoveShiny' + Math.floor(Math.random()*5) + ' ' + (Math.random()*0.2+0.2) + 's ease infinite alternate',
     );
     $('.tmBlockCell:eq(' + i + ')').playKeyframe (
-      'treeMoveMove' + Math.floor(Math.random()*5) + ' ' + (Math.random()*0.4+0.4) + 's ease infinite alternate',
+      'treeMoveMove' + Math.floor(Math.random()*5) + ' ' + (Math.random()*1.2+1.2) + 's ease infinite alternate',
     );
   }
 
@@ -154,7 +154,7 @@ $(function (){
     }
     for (var i = 0; i < 256; i++) {
       $('.tmBlockCell:eq(' + i + ')').playKeyframe (
-        'treeMoveMove' + Math.floor(Math.random()*5) + ' ' + (Math.random()*0.4+0.4) + 's ease infinite alternate',
+        'treeMoveMove' + Math.floor(Math.random()*5) + ' ' + (Math.random()*1.2+1.2) + 's ease infinite alternate',
       );
     }
     $('#windSpeed').html(function (index,html) {
